@@ -1,0 +1,69 @@
+.reason-block {
+  width: 100%;
+  background: url(../../images/Фон.png) no-repeat;
+  height: 810px;
+  background-size: 100%;
+  display: flex;
+  background-color: #e9f5f7;
+  flex-direction: column;
+  &__text {
+
+    width: 550px;
+    height: 44px;
+    color: #000000;
+    font-family: "Roboto", sans-serif;
+    font-size: 47px;
+    font-weight: 400;
+    line-height: 48px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top:170px;
+  }
+  &-item{
+      display:flex;
+      justify-content: center;
+      margin-top:100px;
+  }
+  &__img{
+    width: 439px;
+    height: 407px;
+  }
+  &__info{
+      display:flex;
+      flex-direction: column;
+
+  }
+  &__column{
+      display:flex;
+      margin-left:20px;
+      margin-bottom:10px;
+  }
+  &__description{
+ /* Style for "Принимать" */
+ width: 247px;
+ height: 44px;
+ color: #000000;
+ font-family: "Roboto", sans-serif;
+ font-size: 18px;
+ font-weight: 500;
+ line-height: 26px;
+ margin-left:36px;
+  }
+  &__line{
+    width: 20px;
+    height: 3px;
+    background-color: #7bbf1c;
+    margin-left:36px;
+    margin-top: 25px;
+    margin-bottom:9px;
+  }
+ 
+  &__column-img{
+    width: 119px;
+    height: 119px;
+  }
+  &__column-info{
+      display: flex;
+      flex-direction: column;
+  }
+}

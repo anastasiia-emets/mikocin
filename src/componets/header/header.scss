@@ -1,0 +1,253 @@
+.header {
+  width: 100%;
+  background: url(../../images/back.jpg) no-repeat;
+  background-size: 100%;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+
+  flex-direction: column;
+  background-size: 100%;
+  &-item1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+  }
+  &__name {
+    /* Style for "Микоцин" */
+    width: 92px;
+    height: 20px;
+    color: #383334;
+
+    font-family: "Roboto", sans-serif;
+    font-size: 22px;
+
+    line-height: 40px;
+    margin-left: 20px;
+    margin-top: 5px;
+  }
+  &__icon {
+    width: 35px;
+    height: 35px;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  &__title {
+    width: 171px;
+    height: 35px;
+    color: #666666;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    line-height: 18px;
+    margin-left: 7px;
+    margin-top: 10px;
+  }
+  &__form-icon1 {
+    position: absolute;
+    margin-top: 108px;
+    margin-left: 50px;
+    z-index: 500;
+  }
+  &__form-icon2 {
+    position: absolute;
+    margin-top: 180px;
+    margin-left: -205px;
+    z-index: 500;
+  }
+  &__delivery {
+    display: flex;
+    margin-left: 90px;
+    margin-top: 25px;
+
+    &-img {
+      width: 27px;
+      height: 15px;
+      margin-right: 8px;
+    }
+  }
+
+  &__icon_pos {
+    margin-left: 50px;
+  }
+  &-info {
+    display: flex;
+    flex-direction: column;
+
+    &__header {
+      /* Style for "Комплексно" */
+      font-weight: 900;
+      color: #383334;
+      width: 35%;
+      font-family: "Roboto", sans-serif;
+      font-size: 44px;
+      font-weight: 900;
+    }
+    &__header1 {
+      display: flex;
+    }
+    &__item {
+      display: flex;
+      margin-top: 40px;
+    }
+    &__header2 {
+      font-weight: 900;
+      color: #383334;
+      font-family: "Roboto", sans-serif;
+      font-size: 44px;
+      font-weight: 700;
+      margin-right: 7px;
+
+      text-decoration: underline;
+      text-decoration-color: #ff6b00;
+    }
+    &__header3 {
+      color: #383334;
+      font-family: "Roboto", sans-serif;
+      font-size: 44px;
+      font-weight: 700;
+      margin-left: 7px;
+
+      text-decoration: underline;
+      text-decoration-color: #a7c93d;
+    }
+    &__header4 {
+      color: #383334;
+      font-family: "Roboto", sans-serif;
+      font-size: 44px;
+      font-weight: 700;
+    }
+    &__descreption {
+      /* Style for "Комплекс М" */
+      width: 279px;
+      margin-left: 20px;
+      height: 68px;
+      color: #444444;
+      font-family: "Roboto", sans-serif;
+      font-size: 20px;
+
+      font-weight: 400;
+      line-height: 24px;
+    }
+
+    &__descreption2 {
+      /* Style for "Комплекс М" */
+      width: 279px;
+      margin-left: 20px;
+      height: 68px;
+      color: #444444;
+      font-family: "Roboto", sans-serif;
+      font-size: 20px;
+
+      font-weight: 400;
+      line-height: 24px;
+    }
+  }
+  &-item2 {
+    display: flex;
+    justify-content: center;
+    margin-left: 40%;
+    margin-top: 20px;
+  }
+  &__form {
+    background: url(../../images/форма.png) no-repeat;
+    background-size: 100%;
+    width: 297px;
+    margin-left: -380px;
+  }
+  &__form-header {
+    /* Style for "Успейте за" */
+    width: 165px;
+    height: 61px;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 25px;
+  }
+  &__form-header > strong {
+    /* Text style for "до 10.09.2" */
+    color: #ff6b00;
+
+    font-weight: 500;
+    line-height: 22px;
+  }
+  &__form-input {
+    width: 180px;
+    height: 65px;
+    position: relative;
+    box-shadow: inset 0 2px 7px rgba(0, 0, 0, 0.04);
+    border-radius: 32px;
+    background-color: #eef2f7;
+    border: 0;
+    padding-left: 40px;
+    margin-left: 37px;
+
+    color: #666666;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    margin-bottom: 10px;
+    &:focus {
+      outline: none;
+    }
+  }
+  &__form-input_position {
+    margin-top: 85px;
+  }
+  &__button {
+    width: 220px;
+    height: 60px;
+    border-radius: 27px;
+
+    border: 2px solid #ffffff;
+    background-color: #ffbf02;
+    margin-left: 37px;
+    margin-bottom: 10px;
+    /* Style for "Заказать с" */
+
+    color: #000000;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    /* Text style for "Заказать" */
+    font-size: 28px;
+    line-height: 22px;
+    text-align: center;
+    cursor: pointer;
+    &:focus {
+      outline: none;
+    }
+  }
+  &__button > span {
+    line-height: 16px;
+    font-size: 18px;
+    text-align: center;
+  }
+  &__form-text {
+    /* Style for "Осталось 1" */
+    width: 190px;
+    height: 35px;
+    color: #333333;
+
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  &__form-text > strong {
+    color: #9dbd39;
+    font-weight: 500;
+  }
+}
+.header-info__descreption > strong {
+  color: black;
+  font-weight: 500;
+  border-bottom: 3px solid #ff6b00;
+}
+.header-info__descreption2 > strong {
+  color: black;
+  font-weight: 500;
+  border-bottom: 3px solid #a7c93d;
+}

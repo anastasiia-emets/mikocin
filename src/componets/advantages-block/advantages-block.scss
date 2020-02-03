@@ -1,0 +1,154 @@
+.advantages-block {
+  width: 100%;
+  background: url(../../images/слой.png) no-repeat;
+  background-position: top;
+  background-size: 100%;
+  display: flex;
+
+  background-color: #e9f5f7;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif;
+  background-size: 100%;
+  margin-top: -2%;
+  &__icon2 {
+    margin: 0 auto;
+    display: flex;
+    margin-top: 65px;
+  }
+  &__header {
+    /* Style for "Почему таб" */
+    width: 827px;
+    height: 94px;
+    color: #000000;
+    font-family: "Roboto", sans-serif;
+    font-size: 47px;
+    font-weight: 400;
+    line-height: 48px;
+    text-align: center;
+
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  &__description {
+    /* Style for "Другие сре" */
+
+    height: 23px;
+    color: #444444;
+    font-family: "Roboto", sans-serif;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 48px;
+    text-align: center;
+
+    margin: 0 auto;
+  }
+  &__columns {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+  }
+  &__column1 {
+    width: 350px;
+    height: 387px;
+    background: url(../../images/bl1.png) no-repeat;
+    background-size: 100%;
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+  &__column2 {
+    width: 350px;
+    height: 387px;
+    background: url(../../images/bl2.png) no-repeat;
+    background-size: 100%;
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    margin-top: -30px;
+  }
+  &__column3 {
+    width: 350px;
+    height: 387px;
+    background: url(../../images/bl3.png) no-repeat;
+    background-size: 100%;
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+  &-column__header {
+    /* Style for "Кремы и ма" */
+
+    height: 22px;
+    color: #000000;
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 100px;
+  }
+  &-column2__header {
+    /* Style for "Кремы и ма" */
+
+    height: 22px;
+    color: #000000;
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 128px;
+  }
+  &-column__description {
+    /* Style for "Не лечат г" */
+    width: 318px;
+    height: 148px;
+    color: #444444;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+  &__text {
+    /* Style for "Зачем лечи" */
+    width: 806px;
+    height: 26px;
+    color: #000000;
+    font-family: "Roboto", sans-serif;
+    font-size: 27px;
+    font-weight: 500;
+    line-height: 26.52px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top:50px;
+    
+  }
+  &__conculussion{
+    background: url(../../images/вивод2.png) no-repeat;
+    background-size: 100%;
+  
+    width: 64%;
+    height: 177px;
+    display: flex;
+    margin: 0 auto;
+ 
+    margin-bottom: 20px;
+    
+  }
+}
+strong {
+  color: #fa4f01;
+}
+.advantages-block-item {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}

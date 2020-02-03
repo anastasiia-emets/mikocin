@@ -1,0 +1,15 @@
+@import "_variable";
+
+@import "../componets/header/header";
+@import "../componets/info-block/info-block";
+@import "../componets/main-block/main-block";
+@import "../componets/advantages-block/advantages-block";
+@import "../componets/reason-block/reason-block";
+
+@import "adap";
+body {
+  background: white;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}

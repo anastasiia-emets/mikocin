@@ -1,0 +1,151 @@
+.main-block {
+  width: 100%;
+  background: url(../../images/fon.png) no-repeat;
+  background-size: 100%;
+  display: flex;
+  background-color: #e9f5f7;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif;
+  background-size: 100%;
+  &__header {
+    width: 1024px;
+    height: 95px;
+    color: #383334;
+
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 48px;
+    display: flex;
+    margin: 0 auto;
+
+    text-align: center;
+    margin-top: 168px;
+  }
+  &__columns {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  &__column1 {
+    width: 370px;
+    height: 587px;
+    background: url(../../images/block1.png) no-repeat;
+    background-size: 100%;
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+  &__column2 {
+    width: 370px;
+    height: 587px;
+    background: url(../../images/block2.png) no-repeat;
+    background-size: 100%;
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+  &__column3 {
+    width: 370px;
+    height: 587px;
+    background: url(../../images/block3.png) no-repeat;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 53px;
+  }
+  &__column-header {
+    /* Style for "Чудо-средс" */
+
+    height: 24px;
+    color: #000000;
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: center;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 90px;
+  }
+  &__column-description {
+    width: 278px;
+
+    color: #222222;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: center;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 15px;
+  }
+  &__column-description2 {
+    /* Style for "(таблетки," */
+
+    color: #666666;
+
+    font-size: 16px;
+    font-style: italic;
+    line-height: 28px;
+    text-align: center;
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+  &__column-no {
+    color: #ff6b00;
+    text-align: center;
+    display: flex;
+    margin: 0 auto;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 25px;
+  }
+  &__column-no1 {
+    color: #ff6b00;
+    text-align: center;
+    display: flex;
+    margin: 0 auto;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 40px;
+  }
+  &__text {
+    /* Style for "Ноготь – э" */
+    width: 300px;
+    height: 252px;
+    color: #444444;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 15px;
+  }
+  &__conculussion {
+    background: url(../../images/вивод1.png) no-repeat;
+    background-size: 100%;
+
+    width: 64%;
+    height: 177px;
+    display: flex;
+    margin: 0 auto;
+
+    margin-bottom: 80px;
+  }
+  &__conculussion-text {
+    /* Style for "Даже если" */
+    width: 978px;
+    height: 76px;
+    color: #444444;
+
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+}

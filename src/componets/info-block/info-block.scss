@@ -1,0 +1,106 @@
+.info-block {
+  display: flex;
+  flex-direction: column;
+  &__icons {
+    display: flex;
+    justify-content: center;
+  }
+  &__icon1 {
+    width: 40px;
+    height: 39px;
+    margin-top: 26px;
+  }
+  &__icon2 {
+    width: 54px;
+    height: 53px;
+  }
+  &__header {
+    width: 720px;
+
+    color: #383334;
+    font-family: "Roboto", sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 48px;
+    text-align: center;
+
+    display: flex;
+    margin: 0 auto;
+  }
+  &__desciption {
+    /* Style for "которая уг" */
+
+    height: 25px;
+    color: #2b2828;
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    display: flex;
+    margin: 0 auto;
+  }
+  &-item {
+    display: flex;
+    justify-content: center;
+
+    &__description {
+      width: 101px;
+      height: 73px;
+      color: #000000;
+      font-family: "Roboto", sans-serif;
+      font-size: 22px;
+      font-weight: 500;
+      line-height: 26px;
+      margin-left: 28px;
+      margin-top: 40px;
+    }
+  }
+  &__columns {
+    display: flex;
+    margin-left: 40px;
+    margin-top: 20px;
+  }
+  &__line {
+    /* Style for "Rectangle" */
+    width: 50px;
+    height: 3px;
+    background-color: #becbd8;
+  }
+  &__description {
+    /* Style for "Может появ" */
+    width: 291px;
+    height: 73px;
+    color: #444444;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-right: 20px;
+  }
+  &__conculussion {
+    background: url(../../images/вивод.png) no-repeat;
+    background-size: 100%;
+    width: 1170px;
+    height: 157px;
+
+    display: flex;
+    margin: 0 auto;
+    margin-top: 74px;
+    margin-bottom: 50px;
+  }
+  &__text {
+    /* Style for "Статистика" */
+    width: 989px;
+    height: 49px;
+    color: #444444;
+    font-family: "Roboto", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 28px;
+
+    text-align: center;
+    display:flex;
+    margin: 0 auto;
+    margin-top:55px;
+  }
+}
